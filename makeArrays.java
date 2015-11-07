@@ -39,13 +39,4 @@ public class makeArrays {
 	{
 		return arrays;
 	}
-	
-	public Integer [] sortArray(int index)
-	{
-		Integer [] a;
-		a = arrays.get(index);
-		Arrays.sort(a);
-		return a;
-	} 
-
 }
